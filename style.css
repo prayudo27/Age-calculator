@@ -2,17 +2,18 @@ body {
   margin: 0;
   padding: 20px;
   font-family: "Montserrat", "sans-serif";
-  background-color: #f7f7f7;
+  background-color: #7683e5;
 }
 
 .container {
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   max-width: 600px;
   margin: 0 auto;
-  border-radius: 10px;
   margin-top: 50px;
+  border-radius: 50px;
+background: #7683e5;
+box-shadow:  -40px 40px 80px #4a5390,
+             40px -40px 80px #a2b3ff;
 }
 
 h1 {
@@ -38,14 +39,15 @@ input {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #2b2d2e;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.9 ease;
+    width: 50%;
 }
 
 button:hover {
